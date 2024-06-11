@@ -1,0 +1,40 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+}
+
+.h1 {
+  font-size: 22px;
+}
+
+.a {
+  font-size: 14px;
+}
+
+.a,
+.a:hover,
+.a:visited {
+  color: "#000000";
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.version {
+  font-size: 12px;
+  color: "#777";
+}
