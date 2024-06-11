@@ -1,0 +1,121 @@
+{
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/filmbudd/filmbudd-lite/issues",
+    "email": "support@filmbudd.com"
+  },
+  "author": "Filmbudd LLC <support@filmbudd.com> (https://filmbudd.com/)",
+  "name": "@filmbudd/filmbudd-lite",
+  "description": "manifest.json description",
+  "version": "24.6.1",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "tsc --noEmit",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "@filmbuddllc/filmbudd-lite-widget": "^24.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.3.3",
+    "vitest": "^1.6.0",
+    "wxt": "^0.18.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "webextensions": true,
+      "browser": true,
+      "es2020": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:react-hooks/recommended",
+      "prettier"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "plugins": [
+      "react-refresh"
+    ],
+    "rules": {
+      "no-empty": "warn",
+      "max-len": [
+        "warn",
+        {
+          "code": 150,
+          "ignoreUrls": true
+        }
+      ],
+      "comma-dangle": [
+        "warn",
+        {
+          "arrays": "only-multiline",
+          "objects": "only-multiline",
+          "imports": "never",
+          "exports": "never",
+          "functions": "always-multiline"
+        }
+      ],
+      "no-trailing-spaces": [
+        "error",
+        {
+          "ignoreComments": true
+        }
+      ],
+      "indent": [
+        "error",
+        2
+      ],
+      "quotes": [
+        "warn",
+        "double"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "linebreak-style": [
+        "warn",
+        "unix"
+      ],
+      "array-bracket-newline": [
+        "warn",
+        {
+          "minItems": 2
+        }
+      ],
+      "array-element-newline": [
+        "warn",
+        {
+          "minItems": 2
+        }
+      ],
+      "@typescript-eslint/no-explicit-any": "off",
+      "react-refresh/only-export-components": "off"
+    }
+  },
+  "prettier": {
+    "printWidth": 150,
+    "useTabs": false,
+    "singleQuote": false
+  }
+}

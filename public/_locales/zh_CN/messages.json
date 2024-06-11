@@ -1,0 +1,14 @@
+{
+  "QuickSearch": {
+    "message": "快搜"
+  },
+  "Feedback": {
+    "message": "建议反馈"
+  },
+  "extName": {
+    "message": "Filmbudd Lite"
+  },
+  "extDescription": {
+    "message": "为电影迷而生的电影效率浏览器插件。"
+  }
+}
