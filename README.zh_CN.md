@@ -1,5 +1,7 @@
 # Filmbudd Lite 插件
 
+安装插件 [chrome](https://chromewebstore.google.com/detail/filmbudd-lite/knjgfggpjlmjaoknobdinelbbpmcfcjh)
+
 [English](./README.md) | [简体中文](./README.zh_CN.md)
 
 [![Node.js CI](https://github.com/filmbudd/filmbudd-lite/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/filmbudd/filmbudd-lite/actions/workflows/node.js.yml)
