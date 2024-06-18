@@ -8,6 +8,7 @@
     "email": "support@filmbudd.com"
   },
   "author": "Filmbudd LLC <support@filmbudd.com> (https://filmbudd.com/)",
+  "homepage": "https://github.com/filmbudd/filmbudd-lite",
   "name": "@filmbuddllc/filmbudd-lite",
   "description": "manifest.json description",
   "version": "24.6.2",
