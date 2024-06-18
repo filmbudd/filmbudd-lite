@@ -10,7 +10,7 @@
   "author": "Filmbudd LLC <support@filmbudd.com> (https://filmbudd.com/)",
   "name": "@filmbuddllc/filmbudd-lite",
   "description": "manifest.json description",
-  "version": "24.6.1",
+  "version": "24.6.2",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
