@@ -1,6 +1,7 @@
 # The Filmbudd Lite Extension
 
-Installation [chrome](https://chromewebstore.google.com/detail/filmbudd-lite/knjgfggpjlmjaoknobdinelbbpmcfcjh)
+Installation [chrome](https://chromewebstore.google.com/detail/filmbudd-lite/knjgfggpjlmjaoknobdinelbbpmcfcjh) 
+[edge](https://microsoftedge.microsoft.com/addons/detail/filmbudd-lite/fafjcmjkhdojjcdpailngmgcjjnidhjo)
 
 [English](./README.md) | [简体中文](./README.zh_CN.md)
 
