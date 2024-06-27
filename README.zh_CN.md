@@ -1,6 +1,7 @@
 # Filmbudd Lite 插件
 
-安装插件 [chrome](https://chromewebstore.google.com/detail/filmbudd-lite/knjgfggpjlmjaoknobdinelbbpmcfcjh)
+安装插件 [chrome](https://chromewebstore.google.com/detail/filmbudd-lite/knjgfggpjlmjaoknobdinelbbpmcfcjh) 
+[edge](https://microsoftedge.microsoft.com/addons/detail/filmbudd-lite/)
 
 [English](./README.md) | [简体中文](./README.zh_CN.md)
 
