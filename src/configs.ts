@@ -18,4 +18,4 @@ export enum Action {
 // Use .env.{production,development} VITE_BASE_URL_FILMBUDD_LITE=xx instead if you wan to custom it.
 export const BASE_URL_FILMBUDD_LITE = "https://lite-api.filmbudd.com";
 
-export const URL_FEEDBACK = "https://roundtable.tbonesoft.com/products/7217837231342358528/add-review/";
+export const URL_FEEDBACK = "https://rt.tbonesoft.com/web/#/product/7217837231342358528/add-review";
