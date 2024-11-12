@@ -18,7 +18,7 @@
   "scripts": {
     "build:package": "tsc -p lib/tsconfig.json",
     "test": "vitest run",
-    "dev": "wxt",
+    "dev": "cross-env NODE_ENV=development wxt",
     "dev:firefox": "wxt -b firefox",
     "build": "cross-env NODE_ENV=production wxt build",
     "build:firefox": "wxt build -b firefox",
