@@ -22,3 +22,5 @@ export const BASE_URL_FILMBUDD_LITE_DEFAULT = "";
 export const BASE_URL_FILMBUDD_LITE = import.meta.env.VITE_BASE_URL_FILMBUDD_LITE || BASE_URL_FILMBUDD_LITE_DEFAULT;
 
 export const URL_FEEDBACK = "https://rt.tbonesoft.com/web/#/product/7217837231342358528/add-review";
+
+export const URL_HOME = "https://filmbudd.com/";

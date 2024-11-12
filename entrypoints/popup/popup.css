@@ -38,3 +38,7 @@ a:hover {
   font-size: 12px;
   color: "#777";
 }
+
+.version a {
+  text-decoration: none;
+}

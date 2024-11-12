@@ -17,7 +17,11 @@ function App() {
           {_("Feedback")}
         </a>
       </p>
-      <p className="version">v{manifest.version}</p>
+      <p className="version">
+        <a target="_blank" href={configs.URL_HOME}>
+          v{manifest.version}
+        </a>
+      </p>
     </div>
   );
 }

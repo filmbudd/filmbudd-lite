@@ -8,6 +8,7 @@ import * as config from "./configs";
 
 const transport = createConnectTransport({
   baseUrl: config.BASE_URL_FILMBUDD_LITE,
+});
 
 export function createConnectRpcClient<T extends ServiceType>(service: T): Client<T> {
   return createClient(service, transport);
