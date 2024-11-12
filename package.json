@@ -40,7 +40,7 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3",
     "vitest": "^2.0.2",
-    "wxt": "^0.19.2"
+    "wxt": "^0.19.13"
   },
   "eslintConfig": {
     "env": {
