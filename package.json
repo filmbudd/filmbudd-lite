@@ -18,7 +18,7 @@
   "scripts": {
     "build:package": "tsc -p lib/tsconfig.json",
     "test": "vitest run",
-    "dev": "wxt",
+    "dev": "cross-env NODE_ENV=development wxt",
     "dev:firefox": "wxt -b firefox",
     "build": "cross-env NODE_ENV=production wxt build",
     "build:firefox": "wxt build -b firefox",
@@ -29,18 +29,18 @@
   },
   "dependencies": {
     "@filmbuddllc/filmbudd-lite-widget": "^24.6.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/react": "^18.2.46",
-    "@types/react-dom": "^18.2.18",
-    "@vitejs/plugin-react": "^4.2.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
     "cross-env": "^7.0.3",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3",
-    "vitest": "^2.0.2",
-    "wxt": "^0.19.2"
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4",
+    "wxt": "^0.19.13"
   },
   "eslintConfig": {
     "env": {
