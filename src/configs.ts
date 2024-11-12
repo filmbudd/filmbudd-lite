@@ -7,6 +7,8 @@ export const SOURCE_IM = "im";
 
 export enum Action {
   ProxyRequest = "ProxyRequest",
+
+  GetWorkRequest = "GetWorkRequest",
 }
 
 // It is here for documentation.

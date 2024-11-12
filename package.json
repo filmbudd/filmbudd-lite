@@ -18,16 +18,20 @@
   "scripts": {
     "build:package": "tsc -p lib/tsconfig.json",
     "test": "vitest run",
-    "dev": "cross-env NODE_ENV=development wxt",
-    "dev:firefox": "wxt -b firefox",
-    "build": "cross-env NODE_ENV=production wxt build",
-    "build:firefox": "wxt build -b firefox",
-    "zip": "cross-env NODE_ENV=production wxt zip",
+    "dev": "wxt -m development",
+    "dev:firefox": "wxt -b firefox -m development",
+    "build": "wxt build -m production",
+    "build:dev": "wxt build -m development",
+    "build:firefox": "wxt build -b firefox -m production",
+    "zip": "wxt zip",
     "zip:firefox": "wxt zip -b firefox",
     "compile": "tsc --noEmit",
     "postinstall": "wxt prepare"
   },
   "dependencies": {
+    "@bufbuild/protobuf": "^1.10.0",
+    "@connectrpc/connect": "^1.6.1",
+    "@connectrpc/connect-web": "^1.6.1",
     "@filmbuddllc/filmbudd-lite-widget": "^24.6.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"

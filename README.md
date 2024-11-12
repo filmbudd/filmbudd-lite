@@ -1,6 +1,6 @@
 # The Filmbudd Lite Extension
 
-Installation [chrome](https://chromewebstore.google.com/detail/filmbudd-lite/knjgfggpjlmjaoknobdinelbbpmcfcjh) 
+Installation [chrome](https://chromewebstore.google.com/detail/filmbudd-lite/knjgfggpjlmjaoknobdinelbbpmcfcjh)
 [edge](https://microsoftedge.microsoft.com/addons/detail/filmbudd-lite/fafjcmjkhdojjcdpailngmgcjjnidhjo)
 
 [English](./README.md) | [简体中文](./README.zh_CN.md)
@@ -29,6 +29,12 @@ Preview
 ![feature click to jump](./2-feature-click-to-jump.png)
 
 ![feature search selected](./3-feature-search-selected.png)
+
+OPTINOAL: generate or update [Connect RPC](http://connectrpc.com/) client code
+
+    cd path/to/filmbudd/source/root/
+    pnpm i
+    npx buf generate --template buf.gen.lite.frontend.yaml
 
 Compilation Guide
 

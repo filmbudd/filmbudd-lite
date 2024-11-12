@@ -6,19 +6,7 @@ import * as classes from "@filmbuddllc/filmbudd-lite-widget/src/widget.module.cs
 
 import * as utilManifest from "./utilManifest";
 import * as configs from "./configs";
-import { GrpcStatusCode } from "./goog-grpc-status-code";
-import { GrpcResponse } from "./messageListener";
-
-interface LiteWork {
-  cn?: string;
-  cn_rating?: string;
-  im?: string;
-  im_rating?: string;
-}
-
-interface RsGetWork {
-  work?: LiteWork;
-}
+import { GetWorkRequest, GetWorkResponse } from "./gen/filmbudd_lite/v24/filmbudd_lite_pb";
 
 export async function installFeatureInjectRatingWidget(ctx: ContentScriptContext, extensionName: string, doc: Document, tabUrl: string) {
   const id = utilManifest.toGoogleStyleCssClassName(extensionName);
@@ -45,12 +33,9 @@ export async function installFeatureInjectRatingWidget(ctx: ContentScriptContext
         return;
       }
 
-      const basePath = import.meta.env.VITE_BASE_URL_FILMBUDD_LITE || configs.BASE_URL_FILMBUDD_LITE;
-      const urlGetWork = `${basePath}/v24/work/${source}/${key}`;
-      const payload = { url: urlGetWork, init: { cache: "no-cache", mode: "cors", method: "GET" } };
-
+      const payload = { source, key } as GetWorkRequest;
       browser.runtime
-        .sendMessage({ action: configs.Action.ProxyRequest, payload })
+        .sendMessage({ action: configs.Action.GetWorkRequest, payload })
         .then((rs) => {
           const { err, body } = rs;
 
@@ -60,47 +45,40 @@ export async function installFeatureInjectRatingWidget(ctx: ContentScriptContext
             console.error(message);
             attachInfo(id, doc, attachPoint, message);
           } else {
-            const { code, message } = body as GrpcResponse;
-
-            if (code && parseInt(code) > 0) {
-              const _code = parseInt(code);
-              if (_code == GrpcStatusCode.UNAVAILABLE) {
-                // TODO: Display a custom warning message.
-              }
-
-              console.error(message);
-              attachInfo(id, doc, attachPoint, message);
-            } else {
-              const { work } = body as RsGetWork;
-              if (work) {
-                const _work = {} as Work;
-
-                if (source === configs.SOURCE_CN) {
-                  _work.im_rating = work.im_rating?.split("/")[0] || MidLineEllipsis;
-                  _work.im_url = work.im ? work.im : "";
-                  // TODO: Change the link to feedback page if there is no linked record/404”
-                } else if (source === configs.SOURCE_IM) {
-                  _work.cn_rating = work?.cn_rating?.split("/")[0] || MidLineEllipsis;
-                  _work.cn_url = work.cn ? work.cn : "";
-                  // TODO: Change the link to feedback page if there is no linked record/404”
-                }
-
-                attachWidget(doc, attachPoint, _work, classes, (_doc: Document, _root: Node, _node: Node) => {
-                  if (source === configs.SOURCE_CN) {
-                    _root.appendChild(_node);
-                  } else if (source === configs.SOURCE_IM) {
-                    // We hack to set the widget height to 66px to make it align vertically in the center,
-                    // since its parent - the injection point _root node is set to display=flex without align-items=center.
-                    (_node as HTMLElement).style.height = "66px";
-
-                    insertAsFirstChild(_root, _node);
-                  }
-                });
-              }
+            const { work } = body as GetWorkResponse;
+            if (!work) {
+              console.error("The work field is empty.");
+              return;
             }
+
+            const widgetWork = {} as Work;
+
+            if (source === configs.SOURCE_CN) {
+              widgetWork.im_rating = work.imRating ? work.imRating.toString() : MidLineEllipsis;
+
+              widgetWork.im_url = work.im ?? "";
+              // TODO: Change the link to feedback page if there is no linked record/404”
+            } else if (source === configs.SOURCE_IM) {
+              widgetWork.cn_rating = work.cnRating ? work.cnRating.toString() : MidLineEllipsis;
+
+              widgetWork.cn_url = work.im ?? "";
+              // TODO: Change the link to feedback page if there is no linked record/404”
+            }
+
+            attachWidget(doc, attachPoint, widgetWork, classes, (_doc: Document, _root: Node, _node: Node) => {
+              if (source === configs.SOURCE_CN) {
+                _root.appendChild(_node);
+              } else if (source === configs.SOURCE_IM) {
+                // We hack to set the widget height to 66px to make it align vertically in the center,
+                // since its parent - the injection point _root node is set to display=flex without align-items=center.
+                (_node as HTMLElement).style.height = "66px";
+
+                insertAsFirstChild(_root, _node);
+              }
+            });
           }
         })
-        .catch((err) => {
+        .catch((err: Error) => {
           console.error(err);
           attachInfo(id, doc, attachPoint, err.toString());
         });
