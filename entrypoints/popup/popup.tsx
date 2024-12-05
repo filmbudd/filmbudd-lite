@@ -1,6 +1,7 @@
 import { browser } from "wxt/browser";
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { isSafari } from "react-device-detect";
 
 import * as configs from "@/src/configs";
 import "./popup.css";
@@ -14,7 +15,11 @@ function App() {
       <h1 className="h1">{manifest.name}</h1>
       <p>
         <a target="_blank" href={configs.URL_FEEDBACK} className="a">
-          {_("Feedback")}
+          {/* 
+          The browser.i18n.getMessage does not work on Safari, it will show blank. 
+          we use plain text here walk around it. 
+          */}
+          {isSafari ? "Feedback" : _("Feedback")}
         </a>
       </p>
       <p className="version">
