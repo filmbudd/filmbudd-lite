@@ -41,7 +41,3 @@ Compilation Guide
     npm install -g pnpm
     pnpm i
     pnpm dev
-
-DO NOT upgrade following dependencies, or it will build fail:
-
-    pnpm add @bufbuild/protobuf@^1.10.0 @connectrpc/connect@^1.6.1 @connectrpc/connect-web@^1.6.1

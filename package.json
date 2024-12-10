@@ -29,9 +29,9 @@
     "postinstall": "wxt prepare"
   },
   "dependencies": {
-    "@bufbuild/protobuf": "^1.10.0",
-    "@connectrpc/connect": "^1.6.1",
-    "@connectrpc/connect-web": "^1.6.1",
+    "@bufbuild/protobuf": "^2.2.3",
+    "@connectrpc/connect": "^2.0.0",
+    "@connectrpc/connect-web": "^2.0.0",
     "@filmbuddllc/filmbudd-lite-widget": "^24.6.3",
     "react": "^18.3.1",
     "react-device-detect": "^2.2.3",

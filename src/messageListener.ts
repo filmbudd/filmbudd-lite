@@ -5,6 +5,12 @@ import * as configs from "./configs.js";
 import { FilmbuddLiteService, createConnectRpcClient } from "./apis";
 import { GetWorkRequest, GetWorkResponse } from "./gen/filmbudd_lite/v24/filmbudd_lite_pb";
 
+// Fixed 'TypeError: Do not know how to serialize a BigInt'.
+// See also: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/BigInt_not_serializable
+(BigInt.prototype as any).toJSON = function () {
+  return Number(this);
+};
+
 export interface GrpcResponse {
   code: string;
   message: string;
