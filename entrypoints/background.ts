@@ -11,7 +11,7 @@ function main() {
 
   installFeatureQuickSearchContextMenus(composeExtensionTitleCaseName(manifest));
 
-  installFeatureMessageListener([configs.Action.ProxyRequest]);
+  installFeatureMessageListener([configs.Action.GetWorkRequest]);
 }
 
 export default defineBackground(main);
