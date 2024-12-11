@@ -40,4 +40,9 @@ Compilation Guide
 
     npm install -g pnpm
     pnpm i
+
+    cat << EOF > .env.development
+    VITE_BASE_URL_FILMBUDD_LITE=https://api.filmbudd.com
+    EOF
+
     pnpm dev
