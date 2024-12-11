@@ -119,7 +119,7 @@ export function Widget({ tabUrl, doc, name }: WidgetProps) {
           } else if (source === configs.SOURCE_IM) {
             widgetWork.cn_rating = work.cnRating ? work.cnRating.toString() : MidLineEllipsis;
 
-            widgetWork.cn_url = work.im ?? "";
+            widgetWork.cn_url = work.cn ?? "";
             // TODO: Change the link to feedback page if there is no linked record/404”
           }
 
