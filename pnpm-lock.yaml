@@ -18,8 +18,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0(@bufbuild/protobuf@2.2.3)(@connectrpc/connect@2.0.0(@bufbuild/protobuf@2.2.3))
       '@filmbuddllc/filmbudd-lite-widget':
-        specifier: ^24.6.3
-        version: 24.6.3
+        specifier: ^24.10.31
+        version: 24.10.31
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -323,8 +323,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@filmbuddllc/filmbudd-lite-widget@24.6.3':
-    resolution: {integrity: sha512-j1Y8mKapGBHpU+YadCve4i8yCdtzQ996mZlK96gYQZ0ht6Z5T5+N+cUJYuWzSqj0x+s/0uzS/XRU3bPTybV5kA==}
+  '@filmbuddllc/filmbudd-lite-widget@24.10.31':
+    resolution: {integrity: sha512-/qJ1jIkDRxjLitdNPLF5F25cPd7juF6Tvis0dn74nE+N0I/k91my7HT2QkomJtRCaR5dF5ZFzhsbW4UZ7stRVw==}
 
   '@jridgewell/gen-mapping@0.3.5':
     resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
@@ -2630,7 +2630,7 @@ snapshots:
   '@esbuild/win32-x64@0.21.5':
     optional: true
 
-  '@filmbuddllc/filmbudd-lite-widget@24.6.3': {}
+  '@filmbuddllc/filmbudd-lite-widget@24.10.31': {}
 
   '@jridgewell/gen-mapping@0.3.5':
     dependencies:

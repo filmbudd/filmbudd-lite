@@ -1,5 +1,4 @@
 import { defineConfig } from "wxt";
-import { Manifest } from "wxt/browser";
 import react from "@vitejs/plugin-react";
 
 import * as pkgJson from "./package.json";
@@ -25,19 +24,6 @@ export default defineConfig({
         128: "/icon/icon128.png",
       },
     };
-  },
-
-  // Work around the issue that importing the CSS module does not work in entrypoints/rating.douban.content.ts.
-  transformManifest(manifest: Manifest.WebExtensionManifest) {
-    (manifest.content_scripts || []).push({
-      matches: ["*://movie.douban.com/subject/*"],
-      css: ["./content-scripts/ratingOnDouban.css"],
-    });
-
-    (manifest.content_scripts || []).push({
-      matches: ["*://www.imdb.com/title/*"],
-      css: ["./content-scripts/ratingOnImdb.css"],
-    });
   },
 
   vite: ({ mode }) => {
