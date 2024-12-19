@@ -1,5 +1,5 @@
-import * as utilXpath from "./utilXpath.js";
-import * as imdb from "./imdb.js";
+import * as utilXpath from "./utilXpath";
+import * as imdb from "./imdb";
 
 export function installFeatureMakeIMDbPrimaryKeysClickableOnDouban(doc: Document) {
   window.location.href.indexOf("movie.douban.com/subject") > 0 && makeIMDbTitleIdClickable(doc);

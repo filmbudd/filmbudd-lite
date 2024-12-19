@@ -1,23 +1,20 @@
-import * as configs from "./configs.js";
+import * as configs from "./configs";
 export { configs };
 
-import * as utilManifest from "./utilManifest.js";
+import * as utilManifest from "./utilManifest";
 export { utilManifest };
 
-import * as utilXpath from "./utilXpath.js";
+import * as utilXpath from "./utilXpath";
 export { utilXpath };
 
-import { isFakeTitlePk, isFakeNamePk } from "./imdb.js";
+import { isFakeTitlePk, isFakeNamePk } from "./imdb";
 export { isFakeTitlePk, isFakeNamePk };
 
-import { GrpcStatusCode } from "./goog-grpc-status-code.js";
-export { GrpcStatusCode };
-
-import * as quickSearch from "./quickSearch.js";
+import * as quickSearch from "./quickSearch";
 export { quickSearch };
 
-import * as imdbPkClickable from "./imdbPkClickable.js";
+import * as imdbPkClickable from "./imdbPkClickable";
 export { imdbPkClickable };
 
-import { ProxyRequestPayload, installFeatureMessageListener, GrpcResponse } from "./messageListener.js";
-export { ProxyRequestPayload, installFeatureMessageListener, GrpcResponse };
+import { ProxyRequestPayload, installFeatureMessageListener } from "./messageListener";
+export { ProxyRequestPayload, installFeatureMessageListener };

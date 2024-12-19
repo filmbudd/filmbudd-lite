@@ -1,7 +1,7 @@
 import { browser } from "wxt/browser";
 import { ConnectError } from "@connectrpc/connect";
 
-import * as configs from "./configs.js";
+import * as configs from "./configs";
 import { FilmbuddLiteService, createConnectRpcClient } from "./apis";
 import { GetWorkRequest, GetWorkResponse } from "./gen/filmbudd_lite/v24/filmbudd_lite_pb";
 
@@ -10,11 +10,6 @@ import { GetWorkRequest, GetWorkResponse } from "./gen/filmbudd_lite/v24/filmbud
 (BigInt.prototype as any).toJSON = function () {
   return Number(this);
 };
-
-export interface GrpcResponse {
-  code: string;
-  message: string;
-}
 
 export interface ProxyRequestPayload {
   url: string;
@@ -43,7 +38,7 @@ export function installFeatureMessageListener(actions: string[]) {
           .then((rs: GetWorkResponse) => {
             return sendResponse({ err: null, body: rs });
           })
-          .catch((err) => {
+          .catch((err: ConnectError | Error) => {
             if (err instanceof ConnectError) {
               const connectErr = ConnectError.from(err);
               return sendResponse({ err: connectErr.message, body: null });
