@@ -11,7 +11,7 @@
   "homepage": "https://github.com/filmbudd/filmbudd-lite",
   "name": "@filmbuddllc/filmbudd-lite",
   "description": "manifest.json description",
-  "version": "24.10.31",
+  "version": "24.11.30",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
