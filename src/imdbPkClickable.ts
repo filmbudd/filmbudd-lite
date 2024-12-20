@@ -28,6 +28,7 @@ function makeIMDbTitleIdClickable(doc: Document) {
   newLinkNode.target = "_blank";
   newLinkNode.href = `https://www.imdb.com/title/${pk}`;
   newLinkNode.textContent = `${pk}`;
+  newLinkNode.setAttribute("data-testid", "fb-imdb-id-link");
 
   oldTextNode.parentNode && oldTextNode.parentNode.replaceChild(newLinkNode, oldTextNode);
 }
@@ -52,6 +53,7 @@ function makeImdbNameIdClickable(doc: Document) {
   newLinkNode.target = "_blank";
   newLinkNode.href = `https://www.imdb.com/name/${pk}`;
   newLinkNode.textContent = `${pk}`;
+  newLinkNode.setAttribute("data-testid", "fb-imdb-id-link");
 
   oldTextNode.parentNode && oldTextNode.parentNode.replaceChild(newLinkNode, oldTextNode);
 }
