@@ -82,3 +82,7 @@ fastlane/test_output
 
 # misc
 build/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

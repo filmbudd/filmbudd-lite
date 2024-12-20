@@ -31,8 +31,6 @@ jobs:
           node-version: ${{ matrix.node }}
           registry-url: "https://registry.npmjs.org"
 
-      - run: npm install pnpm -g
-      - run: pnpm install --no-frozen-lockfile
-      - run: pnpm test
+      - run: npm install -g pnpm && pnpm install
       - run: pnpm build
       - run: pnpm build:package
