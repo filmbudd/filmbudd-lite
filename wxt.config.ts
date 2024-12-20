@@ -5,6 +5,10 @@ import * as pkgJson from "./package.json";
 
 // See https://wxt.dev/api/config.html
 export default defineConfig({
+  extensionApi: "webextension-polyfill",
+
+  outDir: "dist", // default: ".output"
+
   imports: false,
 
   manifest: () => {
