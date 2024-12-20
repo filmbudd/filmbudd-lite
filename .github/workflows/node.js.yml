@@ -32,5 +32,6 @@ jobs:
           registry-url: "https://registry.npmjs.org"
 
       - run: npm install -g pnpm && pnpm install
+      - run: pnpm test
       - run: pnpm build
       - run: pnpm build:package
