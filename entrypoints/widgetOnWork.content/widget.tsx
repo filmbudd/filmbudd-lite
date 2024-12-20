@@ -125,8 +125,12 @@ export function Widget({ tabUrl, doc, name }: WidgetProps) {
 
           if (containerRef.current) {
             const parent = containerRef.current as HTMLElement;
-            const _widget = newWidget(doc, widgetWork, classes);
-            parent.appendChild(_widget);
+
+            if (!document.querySelector('*[data-testid="fb-lite-widget"]')) {
+              const _widget = newWidget(doc, widgetWork, classes);
+              _widget.setAttribute("data-testid", "fb-lite-widget");
+              parent.appendChild(_widget);
+            }
           }
         }
       })
@@ -142,7 +146,7 @@ export function Widget({ tabUrl, doc, name }: WidgetProps) {
 
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [containerRef && containerRef.current]);
 
   return (
     <>
