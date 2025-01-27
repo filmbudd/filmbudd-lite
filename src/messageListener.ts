@@ -11,6 +11,11 @@ import { GetWorkRequest, GetWorkResponse } from "./gen/filmbudd_lite/v24/filmbud
   return Number(this);
 };
 
+export interface IMessageResponse {
+  err?: string;
+  body?: any;
+}
+
 export interface ProxyRequestPayload {
   url: string;
   init: RequestInit;
@@ -39,13 +44,17 @@ export function installFeatureMessageListener(actions: string[]) {
             return sendResponse({ err: null, body: rs });
           })
           .catch((err: ConnectError | Error) => {
+            let errorMessage = "";
+
             if (err instanceof ConnectError) {
-              const connectErr = ConnectError.from(err);
-              return sendResponse({ err: connectErr.message, body: null });
+              const connectErr = err as ConnectError;
+              errorMessage = connectErr.rawMessage;
             } else {
-              console.error(err);
-              return sendResponse({ err: err.toString(), body: null });
+              console.error({ err });
+              errorMessage = err.message;
             }
+
+            return sendResponse({ err: errorMessage, body: null });
           })
           .finally(() => {});
 

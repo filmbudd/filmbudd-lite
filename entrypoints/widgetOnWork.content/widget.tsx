@@ -8,6 +8,7 @@ import * as classes from "@filmbuddllc/filmbudd-lite-widget/src/widget.module.cs
 import * as utilManifest from "@/src/utilManifest";
 import * as configs from "@/src/configs";
 import { GetWorkRequest, GetWorkResponse } from "@/src/gen/filmbudd_lite/v24/filmbudd_lite_pb";
+import { IMessageResponse } from "@/src/messageListener";
 
 const manifest = browser.runtime.getManifest();
 const errorMsgSignature = ` (${manifest.name})`;
@@ -95,7 +96,7 @@ export function Widget({ tabUrl, doc, name }: WidgetProps) {
     browser.runtime
       .sendMessage({ action: configs.Action.GetWorkRequest, payload })
       .then((rs) => {
-        const { err, body } = rs;
+        const { err, body } = rs as IMessageResponse;
 
         if (err) {
           const message = err;
