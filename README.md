@@ -46,3 +46,8 @@ Compilation Guide
     EOF
 
     pnpm dev
+
+Runtime requirements:
+
+- macOS 12.3 or newer, Safari 15.4 or newer
+- chrome 88 or newer

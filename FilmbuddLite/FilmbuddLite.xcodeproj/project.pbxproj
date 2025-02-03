@@ -7,45 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F73153AA2CE7924B006B0051 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F73153A92CE7924B006B0051 /* AppDelegate.m */; };
-		F73153AE2CE7924B006B0051 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F73153AD2CE7924B006B0051 /* Base */; };
-		F73153B02CE7924B006B0051 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F73153AF2CE7924B006B0051 /* Icon.png */; };
-		F73153B22CE7924B006B0051 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F73153B12CE7924B006B0051 /* Style.css */; };
-		F73153B42CE7924B006B0051 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F73153B32CE7924B006B0051 /* Script.js */; };
-		F73153B72CE7924B006B0051 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73153B62CE7924B006B0051 /* ViewController.m */; };
-		F73153BA2CE7924B006B0051 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F73153B92CE7924B006B0051 /* Base */; };
-		F73153BC2CE7924D006B0051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73153BB2CE7924D006B0051 /* Assets.xcassets */; };
-		F73153BF2CE7924D006B0051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F73153BE2CE7924D006B0051 /* main.m */; };
-		F73153C72CE7924D006B0051 /* FilmbuddLite Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F73153C62CE7924D006B0051 /* FilmbuddLite Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		F73153CD2CE7924D006B0051 /* SafariWebExtensionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F73153CC2CE7924D006B0051 /* SafariWebExtensionHandler.m */; };
-		F73153E22CE7924D006B0051 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F73153DA2CE7924D006B0051 /* background.js */; };
-		F73153E32CE7924D006B0051 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F73153DB2CE7924D006B0051 /* popup.html */; };
-		F73153E42CE7924D006B0051 /* chunks in Resources */ = {isa = PBXBuildFile; fileRef = F73153DC2CE7924D006B0051 /* chunks */; };
-		F73153E52CE7924D006B0051 /* content-scripts in Resources */ = {isa = PBXBuildFile; fileRef = F73153DD2CE7924D006B0051 /* content-scripts */; };
-		F73153E62CE7924D006B0051 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F73153DE2CE7924D006B0051 /* manifest.json */; };
-		F73153E72CE7924D006B0051 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F73153DF2CE7924D006B0051 /* _locales */; };
-		F73153E82CE7924D006B0051 /* icon in Resources */ = {isa = PBXBuildFile; fileRef = F73153E02CE7924D006B0051 /* icon */; };
-		F73153E92CE7924D006B0051 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = F73153E12CE7924D006B0051 /* assets */; };
+		F74D80FA2D5073CF00158E28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F74D80F92D5073CF00158E28 /* AppDelegate.m */; };
+		F74D80FE2D5073CF00158E28 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F74D80FD2D5073CF00158E28 /* Base */; };
+		F74D81002D5073CF00158E28 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F74D80FF2D5073CF00158E28 /* Icon.png */; };
+		F74D81022D5073CF00158E28 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F74D81012D5073CF00158E28 /* Style.css */; };
+		F74D81042D5073CF00158E28 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F74D81032D5073CF00158E28 /* Script.js */; };
+		F74D81072D5073CF00158E28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74D81062D5073CF00158E28 /* ViewController.m */; };
+		F74D810A2D5073CF00158E28 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F74D81092D5073CF00158E28 /* Base */; };
+		F74D810C2D5073D000158E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74D810B2D5073D000158E28 /* Assets.xcassets */; };
+		F74D810F2D5073D000158E28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F74D810E2D5073D000158E28 /* main.m */; };
+		F74D81172D5073D000158E28 /* FilmbuddLite Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F74D81162D5073D000158E28 /* FilmbuddLite Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F74D811D2D5073D000158E28 /* SafariWebExtensionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F74D811C2D5073D000158E28 /* SafariWebExtensionHandler.m */; };
+		F74D81322D5073D000158E28 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F74D812A2D5073D000158E28 /* background.js */; };
+		F74D81332D5073D000158E28 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F74D812B2D5073D000158E28 /* popup.html */; };
+		F74D81342D5073D000158E28 /* chunks in Resources */ = {isa = PBXBuildFile; fileRef = F74D812C2D5073D000158E28 /* chunks */; };
+		F74D81352D5073D000158E28 /* content-scripts in Resources */ = {isa = PBXBuildFile; fileRef = F74D812D2D5073D000158E28 /* content-scripts */; };
+		F74D81362D5073D000158E28 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F74D812E2D5073D000158E28 /* manifest.json */; };
+		F74D81372D5073D000158E28 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F74D812F2D5073D000158E28 /* _locales */; };
+		F74D81382D5073D000158E28 /* icon in Resources */ = {isa = PBXBuildFile; fileRef = F74D81302D5073D000158E28 /* icon */; };
+		F74D81392D5073D000158E28 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = F74D81312D5073D000158E28 /* assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F73153C82CE7924D006B0051 /* PBXContainerItemProxy */ = {
+		F74D81182D5073D000158E28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F731539D2CE7924B006B0051 /* Project object */;
+			containerPortal = F74D80ED2D5073CF00158E28 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F73153C52CE7924D006B0051;
+			remoteGlobalIDString = F74D81152D5073D000158E28;
 			remoteInfo = "FilmbuddLite Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F73153D52CE7924D006B0051 /* Embed Foundation Extensions */ = {
+		F74D81252D5073D000158E28 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				F73153C72CE7924D006B0051 /* FilmbuddLite Extension.appex in Embed Foundation Extensions */,
+				F74D81172D5073D000158E28 /* FilmbuddLite Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,45 +53,45 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F73153A52CE7924B006B0051 /* FilmbuddLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmbuddLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F73153A82CE7924B006B0051 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F73153A92CE7924B006B0051 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F73153AD2CE7924B006B0051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		F73153AF2CE7924B006B0051 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		F73153B12CE7924B006B0051 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
-		F73153B32CE7924B006B0051 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
-		F73153B52CE7924B006B0051 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F73153B62CE7924B006B0051 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F73153B92CE7924B006B0051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F73153BB2CE7924D006B0051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F73153BD2CE7924D006B0051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F73153BE2CE7924D006B0051 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F73153C02CE7924D006B0051 /* FilmbuddLite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FilmbuddLite.entitlements; sourceTree = "<group>"; };
-		F73153C12CE7924D006B0051 /* FilmbuddLite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FilmbuddLite.entitlements; sourceTree = "<group>"; };
-		F73153C62CE7924D006B0051 /* FilmbuddLite Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FilmbuddLite Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F73153CB2CE7924D006B0051 /* SafariWebExtensionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariWebExtensionHandler.h; sourceTree = "<group>"; };
-		F73153CC2CE7924D006B0051 /* SafariWebExtensionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariWebExtensionHandler.m; sourceTree = "<group>"; };
-		F73153CE2CE7924D006B0051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F73153CF2CE7924D006B0051 /* FilmbuddLite_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FilmbuddLite_Extension.entitlements; sourceTree = "<group>"; };
-		F73153DA2CE7924D006B0051 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = "../../.output/chrome-mv3/background.js"; sourceTree = "<group>"; };
-		F73153DB2CE7924D006B0051 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = "../../.output/chrome-mv3/popup.html"; sourceTree = "<group>"; };
-		F73153DC2CE7924D006B0051 /* chunks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = chunks; path = "../../.output/chrome-mv3/chunks"; sourceTree = "<group>"; };
-		F73153DD2CE7924D006B0051 /* content-scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "content-scripts"; path = "../../.output/chrome-mv3/content-scripts"; sourceTree = "<group>"; };
-		F73153DE2CE7924D006B0051 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../.output/chrome-mv3/manifest.json"; sourceTree = "<group>"; };
-		F73153DF2CE7924D006B0051 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = "../../.output/chrome-mv3/_locales"; sourceTree = "<group>"; };
-		F73153E02CE7924D006B0051 /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icon; path = "../../.output/chrome-mv3/icon"; sourceTree = "<group>"; };
-		F73153E12CE7924D006B0051 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = "../../.output/chrome-mv3/assets"; sourceTree = "<group>"; };
+		F74D80F52D5073CF00158E28 /* FilmbuddLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmbuddLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74D80F82D5073CF00158E28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F74D80F92D5073CF00158E28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F74D80FD2D5073CF00158E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		F74D80FF2D5073CF00158E28 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F74D81012D5073CF00158E28 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		F74D81032D5073CF00158E28 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		F74D81052D5073CF00158E28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F74D81062D5073CF00158E28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F74D81092D5073CF00158E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F74D810B2D5073D000158E28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F74D810D2D5073D000158E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74D810E2D5073D000158E28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F74D81102D5073D000158E28 /* FilmbuddLite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FilmbuddLite.entitlements; sourceTree = "<group>"; };
+		F74D81112D5073D000158E28 /* FilmbuddLite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FilmbuddLite.entitlements; sourceTree = "<group>"; };
+		F74D81162D5073D000158E28 /* FilmbuddLite Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FilmbuddLite Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74D811B2D5073D000158E28 /* SafariWebExtensionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariWebExtensionHandler.h; sourceTree = "<group>"; };
+		F74D811C2D5073D000158E28 /* SafariWebExtensionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariWebExtensionHandler.m; sourceTree = "<group>"; };
+		F74D811E2D5073D000158E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74D811F2D5073D000158E28 /* FilmbuddLite_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FilmbuddLite_Extension.entitlements; sourceTree = "<group>"; };
+		F74D812A2D5073D000158E28 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = "../../dist/chrome-mv3/background.js"; sourceTree = "<group>"; };
+		F74D812B2D5073D000158E28 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = "../../dist/chrome-mv3/popup.html"; sourceTree = "<group>"; };
+		F74D812C2D5073D000158E28 /* chunks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = chunks; path = "../../dist/chrome-mv3/chunks"; sourceTree = "<group>"; };
+		F74D812D2D5073D000158E28 /* content-scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "content-scripts"; path = "../../dist/chrome-mv3/content-scripts"; sourceTree = "<group>"; };
+		F74D812E2D5073D000158E28 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../dist/chrome-mv3/manifest.json"; sourceTree = "<group>"; };
+		F74D812F2D5073D000158E28 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = "../../dist/chrome-mv3/_locales"; sourceTree = "<group>"; };
+		F74D81302D5073D000158E28 /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icon; path = "../../dist/chrome-mv3/icon"; sourceTree = "<group>"; };
+		F74D81312D5073D000158E28 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = "../../dist/chrome-mv3/assets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F73153A22CE7924B006B0051 /* Frameworks */ = {
+		F74D80F22D5073CF00158E28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F73153C32CE7924D006B0051 /* Frameworks */ = {
+		F74D81132D5073D000158E28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -101,76 +101,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F731539C2CE7924B006B0051 = {
+		F74D80EC2D5073CF00158E28 = {
 			isa = PBXGroup;
 			children = (
-				F73153A72CE7924B006B0051 /* FilmbuddLite */,
-				F73153CA2CE7924D006B0051 /* FilmbuddLite Extension */,
-				F73153A62CE7924B006B0051 /* Products */,
+				F74D80F72D5073CF00158E28 /* FilmbuddLite */,
+				F74D811A2D5073D000158E28 /* FilmbuddLite Extension */,
+				F74D80F62D5073CF00158E28 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F73153A62CE7924B006B0051 /* Products */ = {
+		F74D80F62D5073CF00158E28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F73153A52CE7924B006B0051 /* FilmbuddLite.app */,
-				F73153C62CE7924D006B0051 /* FilmbuddLite Extension.appex */,
+				F74D80F52D5073CF00158E28 /* FilmbuddLite.app */,
+				F74D81162D5073D000158E28 /* FilmbuddLite Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F73153A72CE7924B006B0051 /* FilmbuddLite */ = {
+		F74D80F72D5073CF00158E28 /* FilmbuddLite */ = {
 			isa = PBXGroup;
 			children = (
-				F73153A82CE7924B006B0051 /* AppDelegate.h */,
-				F73153A92CE7924B006B0051 /* AppDelegate.m */,
-				F73153B52CE7924B006B0051 /* ViewController.h */,
-				F73153B62CE7924B006B0051 /* ViewController.m */,
-				F73153B82CE7924B006B0051 /* Main.storyboard */,
-				F73153BB2CE7924D006B0051 /* Assets.xcassets */,
-				F73153BD2CE7924D006B0051 /* Info.plist */,
-				F73153BE2CE7924D006B0051 /* main.m */,
-				F73153C02CE7924D006B0051 /* FilmbuddLite.entitlements */,
-				F73153C12CE7924D006B0051 /* FilmbuddLite.entitlements */,
-				F73153AB2CE7924B006B0051 /* Resources */,
+				F74D80F82D5073CF00158E28 /* AppDelegate.h */,
+				F74D80F92D5073CF00158E28 /* AppDelegate.m */,
+				F74D81052D5073CF00158E28 /* ViewController.h */,
+				F74D81062D5073CF00158E28 /* ViewController.m */,
+				F74D81082D5073CF00158E28 /* Main.storyboard */,
+				F74D810B2D5073D000158E28 /* Assets.xcassets */,
+				F74D810D2D5073D000158E28 /* Info.plist */,
+				F74D810E2D5073D000158E28 /* main.m */,
+				F74D81102D5073D000158E28 /* FilmbuddLite.entitlements */,
+				F74D81112D5073D000158E28 /* FilmbuddLite.entitlements */,
+				F74D80FB2D5073CF00158E28 /* Resources */,
 			);
 			path = FilmbuddLite;
 			sourceTree = "<group>";
 		};
-		F73153AB2CE7924B006B0051 /* Resources */ = {
+		F74D80FB2D5073CF00158E28 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F73153AC2CE7924B006B0051 /* Main.html */,
-				F73153AF2CE7924B006B0051 /* Icon.png */,
-				F73153B12CE7924B006B0051 /* Style.css */,
-				F73153B32CE7924B006B0051 /* Script.js */,
+				F74D80FC2D5073CF00158E28 /* Main.html */,
+				F74D80FF2D5073CF00158E28 /* Icon.png */,
+				F74D81012D5073CF00158E28 /* Style.css */,
+				F74D81032D5073CF00158E28 /* Script.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		F73153CA2CE7924D006B0051 /* FilmbuddLite Extension */ = {
+		F74D811A2D5073D000158E28 /* FilmbuddLite Extension */ = {
 			isa = PBXGroup;
 			children = (
-				F73153D92CE7924D006B0051 /* Resources */,
-				F73153CB2CE7924D006B0051 /* SafariWebExtensionHandler.h */,
-				F73153CC2CE7924D006B0051 /* SafariWebExtensionHandler.m */,
-				F73153CE2CE7924D006B0051 /* Info.plist */,
-				F73153CF2CE7924D006B0051 /* FilmbuddLite_Extension.entitlements */,
+				F74D81292D5073D000158E28 /* Resources */,
+				F74D811B2D5073D000158E28 /* SafariWebExtensionHandler.h */,
+				F74D811C2D5073D000158E28 /* SafariWebExtensionHandler.m */,
+				F74D811E2D5073D000158E28 /* Info.plist */,
+				F74D811F2D5073D000158E28 /* FilmbuddLite_Extension.entitlements */,
 			);
 			path = "FilmbuddLite Extension";
 			sourceTree = "<group>";
 		};
-		F73153D92CE7924D006B0051 /* Resources */ = {
+		F74D81292D5073D000158E28 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F73153DA2CE7924D006B0051 /* background.js */,
-				F73153DB2CE7924D006B0051 /* popup.html */,
-				F73153DC2CE7924D006B0051 /* chunks */,
-				F73153DD2CE7924D006B0051 /* content-scripts */,
-				F73153DE2CE7924D006B0051 /* manifest.json */,
-				F73153DF2CE7924D006B0051 /* _locales */,
-				F73153E02CE7924D006B0051 /* icon */,
-				F73153E12CE7924D006B0051 /* assets */,
+				F74D812A2D5073D000158E28 /* background.js */,
+				F74D812B2D5073D000158E28 /* popup.html */,
+				F74D812C2D5073D000158E28 /* chunks */,
+				F74D812D2D5073D000158E28 /* content-scripts */,
+				F74D812E2D5073D000158E28 /* manifest.json */,
+				F74D812F2D5073D000158E28 /* _locales */,
+				F74D81302D5073D000158E28 /* icon */,
+				F74D81312D5073D000158E28 /* assets */,
 			);
 			name = Resources;
 			path = "FilmbuddLite Extension";
@@ -179,32 +179,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F73153A42CE7924B006B0051 /* FilmbuddLite */ = {
+		F74D80F42D5073CF00158E28 /* FilmbuddLite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F73153D62CE7924D006B0051 /* Build configuration list for PBXNativeTarget "FilmbuddLite" */;
+			buildConfigurationList = F74D81262D5073D000158E28 /* Build configuration list for PBXNativeTarget "FilmbuddLite" */;
 			buildPhases = (
-				F73153A12CE7924B006B0051 /* Sources */,
-				F73153A22CE7924B006B0051 /* Frameworks */,
-				F73153A32CE7924B006B0051 /* Resources */,
-				F73153D52CE7924D006B0051 /* Embed Foundation Extensions */,
+				F74D80F12D5073CF00158E28 /* Sources */,
+				F74D80F22D5073CF00158E28 /* Frameworks */,
+				F74D80F32D5073CF00158E28 /* Resources */,
+				F74D81252D5073D000158E28 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F73153C92CE7924D006B0051 /* PBXTargetDependency */,
+				F74D81192D5073D000158E28 /* PBXTargetDependency */,
 			);
 			name = FilmbuddLite;
 			productName = FilmbuddLite;
-			productReference = F73153A52CE7924B006B0051 /* FilmbuddLite.app */;
+			productReference = F74D80F52D5073CF00158E28 /* FilmbuddLite.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F73153C52CE7924D006B0051 /* FilmbuddLite Extension */ = {
+		F74D81152D5073D000158E28 /* FilmbuddLite Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F73153D22CE7924D006B0051 /* Build configuration list for PBXNativeTarget "FilmbuddLite Extension" */;
+			buildConfigurationList = F74D81222D5073D000158E28 /* Build configuration list for PBXNativeTarget "FilmbuddLite Extension" */;
 			buildPhases = (
-				F73153C22CE7924D006B0051 /* Sources */,
-				F73153C32CE7924D006B0051 /* Frameworks */,
-				F73153C42CE7924D006B0051 /* Resources */,
+				F74D81122D5073D000158E28 /* Sources */,
+				F74D81132D5073D000158E28 /* Frameworks */,
+				F74D81142D5073D000158E28 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -212,27 +212,27 @@
 			);
 			name = "FilmbuddLite Extension";
 			productName = "FilmbuddLite Extension";
-			productReference = F73153C62CE7924D006B0051 /* FilmbuddLite Extension.appex */;
+			productReference = F74D81162D5073D000158E28 /* FilmbuddLite Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F731539D2CE7924B006B0051 /* Project object */ = {
+		F74D80ED2D5073CF00158E28 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					F73153A42CE7924B006B0051 = {
+					F74D80F42D5073CF00158E28 = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					F73153C52CE7924D006B0051 = {
+					F74D81152D5073D000158E28 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = F73153A02CE7924B006B0051 /* Build configuration list for PBXProject "FilmbuddLite" */;
+			buildConfigurationList = F74D80F02D5073CF00158E28 /* Build configuration list for PBXProject "FilmbuddLite" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -240,90 +240,90 @@
 				en,
 				Base,
 			);
-			mainGroup = F731539C2CE7924B006B0051;
-			productRefGroup = F73153A62CE7924B006B0051 /* Products */;
+			mainGroup = F74D80EC2D5073CF00158E28;
+			productRefGroup = F74D80F62D5073CF00158E28 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F73153A42CE7924B006B0051 /* FilmbuddLite */,
-				F73153C52CE7924D006B0051 /* FilmbuddLite Extension */,
+				F74D80F42D5073CF00158E28 /* FilmbuddLite */,
+				F74D81152D5073D000158E28 /* FilmbuddLite Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F73153A32CE7924B006B0051 /* Resources */ = {
+		F74D80F32D5073CF00158E28 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F73153B02CE7924B006B0051 /* Icon.png in Resources */,
-				F73153B42CE7924B006B0051 /* Script.js in Resources */,
-				F73153AE2CE7924B006B0051 /* Base in Resources */,
-				F73153B22CE7924B006B0051 /* Style.css in Resources */,
-				F73153BC2CE7924D006B0051 /* Assets.xcassets in Resources */,
-				F73153BA2CE7924B006B0051 /* Base in Resources */,
+				F74D81002D5073CF00158E28 /* Icon.png in Resources */,
+				F74D81042D5073CF00158E28 /* Script.js in Resources */,
+				F74D80FE2D5073CF00158E28 /* Base in Resources */,
+				F74D81022D5073CF00158E28 /* Style.css in Resources */,
+				F74D810C2D5073D000158E28 /* Assets.xcassets in Resources */,
+				F74D810A2D5073CF00158E28 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F73153C42CE7924D006B0051 /* Resources */ = {
+		F74D81142D5073D000158E28 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F73153E72CE7924D006B0051 /* _locales in Resources */,
-				F73153E92CE7924D006B0051 /* assets in Resources */,
-				F73153E42CE7924D006B0051 /* chunks in Resources */,
-				F73153E82CE7924D006B0051 /* icon in Resources */,
-				F73153E22CE7924D006B0051 /* background.js in Resources */,
-				F73153E62CE7924D006B0051 /* manifest.json in Resources */,
-				F73153E32CE7924D006B0051 /* popup.html in Resources */,
-				F73153E52CE7924D006B0051 /* content-scripts in Resources */,
+				F74D81372D5073D000158E28 /* _locales in Resources */,
+				F74D81392D5073D000158E28 /* assets in Resources */,
+				F74D81342D5073D000158E28 /* chunks in Resources */,
+				F74D81382D5073D000158E28 /* icon in Resources */,
+				F74D81322D5073D000158E28 /* background.js in Resources */,
+				F74D81362D5073D000158E28 /* manifest.json in Resources */,
+				F74D81332D5073D000158E28 /* popup.html in Resources */,
+				F74D81352D5073D000158E28 /* content-scripts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F73153A12CE7924B006B0051 /* Sources */ = {
+		F74D80F12D5073CF00158E28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F73153B72CE7924B006B0051 /* ViewController.m in Sources */,
-				F73153BF2CE7924D006B0051 /* main.m in Sources */,
-				F73153AA2CE7924B006B0051 /* AppDelegate.m in Sources */,
+				F74D81072D5073CF00158E28 /* ViewController.m in Sources */,
+				F74D810F2D5073D000158E28 /* main.m in Sources */,
+				F74D80FA2D5073CF00158E28 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F73153C22CE7924D006B0051 /* Sources */ = {
+		F74D81122D5073D000158E28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F73153CD2CE7924D006B0051 /* SafariWebExtensionHandler.m in Sources */,
+				F74D811D2D5073D000158E28 /* SafariWebExtensionHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F73153C92CE7924D006B0051 /* PBXTargetDependency */ = {
+		F74D81192D5073D000158E28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F73153C52CE7924D006B0051 /* FilmbuddLite Extension */;
-			targetProxy = F73153C82CE7924D006B0051 /* PBXContainerItemProxy */;
+			target = F74D81152D5073D000158E28 /* FilmbuddLite Extension */;
+			targetProxy = F74D81182D5073D000158E28 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F73153AC2CE7924B006B0051 /* Main.html */ = {
+		F74D80FC2D5073CF00158E28 /* Main.html */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F73153AD2CE7924B006B0051 /* Base */,
+				F74D80FD2D5073CF00158E28 /* Base */,
 			);
 			name = Main.html;
 			sourceTree = "<group>";
 		};
-		F73153B82CE7924B006B0051 /* Main.storyboard */ = {
+		F74D81082D5073CF00158E28 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F73153B92CE7924B006B0051 /* Base */,
+				F74D81092D5073CF00158E28 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -331,7 +331,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F73153D02CE7924D006B0051 /* Debug */ = {
+		F74D81202D5073D000158E28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -392,7 +392,7 @@
 			};
 			name = Debug;
 		};
-		F73153D12CE7924D006B0051 /* Release */ = {
+		F74D81212D5073D000158E28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -446,13 +446,12 @@
 			};
 			name = Release;
 		};
-		F73153D32CE7924D006B0051 /* Debug */ = {
+		F74D81232D5073D000158E28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "FilmbuddLite Extension/FilmbuddLite_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "FilmbuddLite Extension/Info.plist";
@@ -463,7 +462,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -476,7 +475,7 @@
 			};
 			name = Debug;
 		};
-		F73153D42CE7924D006B0051 /* Release */ = {
+		F74D81242D5073D000158E28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "FilmbuddLite Extension/FilmbuddLite_Extension.entitlements";
@@ -493,7 +492,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -506,16 +505,15 @@
 			};
 			name = Release;
 		};
-		F73153D72CE7924D006B0051 /* Debug */ = {
+		F74D81272D5073D000158E28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FilmbuddLite/FilmbuddLite.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -529,8 +527,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
-				MARKETING_VERSION = 24.9.30;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 24.11.30;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -543,16 +541,15 @@
 			};
 			name = Debug;
 		};
-		F73153D82CE7924D006B0051 /* Release */ = {
+		F74D81282D5073D000158E28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FilmbuddLite/FilmbuddLite.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -566,8 +563,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
-				MARKETING_VERSION = 24.9.30;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 24.11.30;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -583,34 +580,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F73153A02CE7924B006B0051 /* Build configuration list for PBXProject "FilmbuddLite" */ = {
+		F74D80F02D5073CF00158E28 /* Build configuration list for PBXProject "FilmbuddLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F73153D02CE7924D006B0051 /* Debug */,
-				F73153D12CE7924D006B0051 /* Release */,
+				F74D81202D5073D000158E28 /* Debug */,
+				F74D81212D5073D000158E28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F73153D22CE7924D006B0051 /* Build configuration list for PBXNativeTarget "FilmbuddLite Extension" */ = {
+		F74D81222D5073D000158E28 /* Build configuration list for PBXNativeTarget "FilmbuddLite Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F73153D32CE7924D006B0051 /* Debug */,
-				F73153D42CE7924D006B0051 /* Release */,
+				F74D81232D5073D000158E28 /* Debug */,
+				F74D81242D5073D000158E28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F73153D62CE7924D006B0051 /* Build configuration list for PBXNativeTarget "FilmbuddLite" */ = {
+		F74D81262D5073D000158E28 /* Build configuration list for PBXNativeTarget "FilmbuddLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F73153D72CE7924D006B0051 /* Debug */,
-				F73153D82CE7924D006B0051 /* Release */,
+				F74D81272D5073D000158E28 /* Debug */,
+				F74D81282D5073D000158E28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F731539D2CE7924B006B0051 /* Project object */;
+	rootObject = F74D80ED2D5073CF00158E28 /* Project object */;
 }
