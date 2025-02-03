@@ -81,7 +81,7 @@ export interface WidgetProps {
 export function Widget({ tabUrl, doc, name }: WidgetProps) {
   const [loading, setLoading] = useState(false);
   const [msg, setMsg] = useState("");
-  const containerRef = useRef(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   const fetchData = () => {
     setLoading(true);
@@ -124,15 +124,19 @@ export function Widget({ tabUrl, doc, name }: WidgetProps) {
             // TODO: Change the link to feedback page if there is no linked record/404”
           }
 
-          if (containerRef.current) {
-            const parent = containerRef.current as HTMLElement;
+          const _id = setInterval(() => {
+            if (containerRef.current) {
+              const parent = containerRef.current as HTMLElement;
 
-            if (!parent.querySelector('*[data-testid="fb-lite-widget"]')) {
-              const _widget = newWidget(doc, widgetWork, classes);
-              _widget.setAttribute("data-testid", "fb-lite-widget");
-              parent.appendChild(_widget);
+              if (!parent.querySelector('*[data-testid="fb-lite-widget"]')) {
+                const _widget = newWidget(doc, widgetWork, classes);
+                _widget.setAttribute("data-testid", "fb-lite-widget");
+                parent.appendChild(_widget);
+              }
+
+              clearInterval(_id);
             }
-          }
+          }, 100);
         }
       })
       .catch((err: Error) => {
@@ -147,7 +151,7 @@ export function Widget({ tabUrl, doc, name }: WidgetProps) {
 
   useEffect(() => {
     fetchData();
-  }, [containerRef && containerRef.current]);
+  }, []);
 
   return (
     <>

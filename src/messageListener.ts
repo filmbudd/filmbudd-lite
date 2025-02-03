@@ -55,8 +55,7 @@ export function installFeatureMessageListener(actions: string[]) {
             }
 
             return sendResponse({ err: errorMessage, body: null });
-          })
-          .finally(() => {});
+          });
 
         return true;
       }
