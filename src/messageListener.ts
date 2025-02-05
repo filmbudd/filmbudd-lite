@@ -1,13 +1,19 @@
 import { browser } from "wxt/browser";
 import { ConnectError } from "@connectrpc/connect";
 
-import * as configs from "./configs.js";
+import * as configs from "./configs";
 import { FilmbuddLiteService, createConnectRpcClient } from "./apis";
 import { GetWorkRequest, GetWorkResponse } from "./gen/filmbudd_lite/v24/filmbudd_lite_pb";
 
-export interface GrpcResponse {
-  code: string;
-  message: string;
+// Fixed 'TypeError: Do not know how to serialize a BigInt'.
+// See also: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/BigInt_not_serializable
+(BigInt.prototype as any).toJSON = function () {
+  return Number(this);
+};
+
+export interface IMessageResponse {
+  err?: string;
+  body?: any;
 }
 
 export interface ProxyRequestPayload {
@@ -37,16 +43,19 @@ export function installFeatureMessageListener(actions: string[]) {
           .then((rs: GetWorkResponse) => {
             return sendResponse({ err: null, body: rs });
           })
-          .catch((err) => {
+          .catch((err: ConnectError | Error) => {
+            let errorMessage = "";
+
             if (err instanceof ConnectError) {
-              const connectErr = ConnectError.from(err);
-              return sendResponse({ err: connectErr.message, body: null });
+              const connectErr = err as ConnectError;
+              errorMessage = connectErr.rawMessage;
             } else {
-              console.error(err);
-              return sendResponse({ err: err.toString(), body: null });
+              console.error({ err });
+              errorMessage = err.message;
             }
-          })
-          .finally(() => {});
+
+            return sendResponse({ err: errorMessage, body: null });
+          });
 
         return true;
       }

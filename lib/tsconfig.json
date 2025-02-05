@@ -1,14 +1,27 @@
 {
-  "files": ["../src/index.ts"],
+  "files": ["../src/index.ts", "../src/vite-env.d.ts"],
   "exclude": ["node_modules", "**/__tests__/*"],
   "compilerOptions": {
+    // Tells TypeScript to read JS files, as
+    // normally they are ignored as source files
+    "allowJs": true,
+
+    // Generate d.ts files
     "declaration": true,
+
+    // go to js file when using IDE functions like
+    // "Go to Definition" in VSCode
+    "declarationMap": true,
+
+    // Types should go into this directory.
+    // Removing this would place the .d.ts files
+    // next to the .js files
     "outDir": "../dist",
 
     "target": "es2015",
-    "module": "NodeNext",
+    "module": "esnext",
     "lib": ["ES2021", "DOM", "DOM.Iterable"],
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "bundler",
 
     /* Bundler mode */
     "noEmit": false,

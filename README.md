@@ -40,8 +40,14 @@ Compilation Guide
 
     npm install -g pnpm
     pnpm i
+
+    cat << EOF > .env.development
+    VITE_BASE_URL_FILMBUDD_LITE=https://api.filmbudd.com
+    EOF
+
     pnpm dev
 
-DO NOT upgrade following dependencies, or it will build fail:
+Runtime requirements:
 
-    pnpm add @bufbuild/protobuf@^1.10.0 @connectrpc/connect@^1.6.1 @connectrpc/connect-web@^1.6.1
+- macOS 12.3 or newer, Safari 15.4 or newer
+- chrome 88 or newer

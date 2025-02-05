@@ -11,7 +11,7 @@
   "homepage": "https://github.com/filmbudd/filmbudd-lite",
   "name": "@filmbuddllc/filmbudd-lite",
   "description": "manifest.json description",
-  "version": "24.9.30",
+  "version": "24.11.30",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -25,27 +25,28 @@
     "build:firefox": "wxt build -b firefox -m production",
     "zip": "wxt zip",
     "zip:firefox": "wxt zip -b firefox",
-    "compile": "tsc --noEmit",
-    "postinstall": "wxt prepare"
+    "compile": "tsc --noEmit"
   },
   "dependencies": {
-    "@bufbuild/protobuf": "^1.10.0",
-    "@connectrpc/connect": "^1.6.1",
-    "@connectrpc/connect-web": "^1.6.1",
-    "@filmbuddllc/filmbudd-lite-widget": "^24.6.3",
+    "@bufbuild/protobuf": "^2.2.3",
+    "@connectrpc/connect": "^2.0.0",
+    "@connectrpc/connect-web": "^2.0.0",
+    "@filmbuddllc/filmbudd-lite-widget": "^24.10.31",
     "react": "^18.3.1",
     "react-device-detect": "^2.2.3",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/react": "^18.3.12",
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.1",
-    "@vitejs/plugin-react": "^4.3.3",
+    "@vitejs/plugin-react": "^4.3.4",
     "cross-env": "^7.0.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3",
     "vitest": "^2.1.4",
-    "wxt": "^0.19.13"
+    "wxt": "^0.19.22"
   },
   "eslintConfig": {
     "env": {
@@ -128,5 +129,6 @@
     "printWidth": 150,
     "useTabs": false,
     "singleQuote": false
-  }
+  },
+  "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c"
 }

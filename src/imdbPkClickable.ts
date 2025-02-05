@@ -1,5 +1,5 @@
-import * as utilXpath from "./utilXpath.js";
-import * as imdb from "./imdb.js";
+import * as utilXpath from "./utilXpath";
+import * as imdb from "./imdb";
 
 export function installFeatureMakeIMDbPrimaryKeysClickableOnDouban(doc: Document) {
   window.location.href.indexOf("movie.douban.com/subject") > 0 && makeIMDbTitleIdClickable(doc);
@@ -28,6 +28,7 @@ function makeIMDbTitleIdClickable(doc: Document) {
   newLinkNode.target = "_blank";
   newLinkNode.href = `https://www.imdb.com/title/${pk}`;
   newLinkNode.textContent = `${pk}`;
+  newLinkNode.setAttribute("data-testid", "fb-imdb-id-link");
 
   oldTextNode.parentNode && oldTextNode.parentNode.replaceChild(newLinkNode, oldTextNode);
 }
@@ -52,6 +53,7 @@ function makeImdbNameIdClickable(doc: Document) {
   newLinkNode.target = "_blank";
   newLinkNode.href = `https://www.imdb.com/name/${pk}`;
   newLinkNode.textContent = `${pk}`;
+  newLinkNode.setAttribute("data-testid", "fb-imdb-id-link");
 
   oldTextNode.parentNode && oldTextNode.parentNode.replaceChild(newLinkNode, oldTextNode);
 }

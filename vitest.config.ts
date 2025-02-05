@@ -4,6 +4,8 @@ import { WxtVitest } from "wxt/testing";
 export default defineConfig({
   // Configure test behavior however you like
   test: {
+    include: ["test/*.test.ts"],
+    exclude: ["**/node_modules/**", "**/dist/**", "tests/**"],
     mockReset: true,
     restoreMocks: true,
   },
