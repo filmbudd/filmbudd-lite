@@ -85,3 +85,8 @@ build/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+# Env files (keep secrets out of git; use .env.example as a template)
+.env
+.env.*
+!.env.example
