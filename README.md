@@ -1,5 +1,10 @@
 # The Filmbudd Lite Extension
 
+> [!IMPORTANT]
+> **This repository is no longer maintained.**
+>
+> Please use the [**EnteHub extension**](https://chromewebstore.google.com/detail/ehmoihnjgkdimihkhokkmfjdgomohjgm) instead.
+
 Installation [chrome](https://chromewebstore.google.com/detail/filmbudd-lite/knjgfggpjlmjaoknobdinelbbpmcfcjh)
 [edge](https://microsoftedge.microsoft.com/addons/detail/filmbudd-lite/fafjcmjkhdojjcdpailngmgcjjnidhjo)
 

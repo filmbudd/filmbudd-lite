@@ -1,5 +1,10 @@
 # Filmbudd Lite 插件
 
+> [!IMPORTANT]
+> **本仓库已不再维护。**
+>
+> 请改用 [**EnteHub 插件**](https://chromewebstore.google.com/detail/ehmoihnjgkdimihkhokkmfjdgomohjgm)。
+
 安装插件 [chrome](https://chromewebstore.google.com/detail/filmbudd-lite/knjgfggpjlmjaoknobdinelbbpmcfcjh) 
 [edge](https://microsoftedge.microsoft.com/addons/detail/filmbudd-lite/fafjcmjkhdojjcdpailngmgcjjnidhjo)
 
